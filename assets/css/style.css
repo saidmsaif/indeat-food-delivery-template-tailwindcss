@@ -622,6 +622,34 @@ video {
   }
 }
 
+.indeat-container {
+  max-width: 1440px;
+}
+
+@media (min-width: 640px) {
+  .indeat-container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .indeat-container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .indeat-container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .indeat-container {
+    max-width: 1280px;
+  }
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

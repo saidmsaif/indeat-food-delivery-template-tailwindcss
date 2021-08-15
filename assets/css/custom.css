@@ -1,0 +1,30 @@
+/* Global */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Home Page */
+.language a {
+    position: relative;
+}
+.language a::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 13px;
+    background: rgb(138, 138, 138);
+    top: 12%;
+    right: -6px;
+}
+.language a.lang-active {
+    color: #B6B6B6;
+}
+.language a:last-child::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 13px;
+    background: rgb(138, 138, 138);
+    top: 20%;
+    right: 0;
+}
