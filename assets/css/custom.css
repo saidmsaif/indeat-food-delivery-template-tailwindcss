@@ -46,3 +46,8 @@ body {
         height: 500px;
     }
 }
+
+.cities-grid-hover-letter {
+    font-size: 180px;
+    line-height: 145px;
+}
