@@ -28,3 +28,15 @@ body {
     top: 20%;
     right: 0;
 }
+
+.homepage-header-bg {
+    background-image: url('../images/header-right-bg.jpg');
+}
+
+.home-page-header-food-search-box {
+    box-shadow: 0px 2px 30px rgba(186, 186, 186, 0.25);
+}
+
+.homepage-header-h-screen {
+    height: 80vh;
+}
