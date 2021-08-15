@@ -40,3 +40,9 @@ body {
 .homepage-header-h-screen {
     height: 80vh;
 }
+
+@media only screen and (max-width: 768px) {
+    .homepage-header-h-screen {
+        height: 500px;
+    }
+}
