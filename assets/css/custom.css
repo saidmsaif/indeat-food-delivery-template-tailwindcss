@@ -51,3 +51,7 @@ body {
 .treat-section-bg {
     background-image: url('/assets/images/cuisine-food-india-indian-wallpaper-preview.jpg');
 }
+
+.hover-border-b:hover {
+    border-bottom: 2px solid #0084F6;
+}

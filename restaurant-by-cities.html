@@ -1,0 +1,276 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indeat - Food Delivery Management</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- Tailwind CSS File -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+    <!-- Website Header -->
+    <header class="mx-auto flex justify-between px-4 sm:px-6 md:px-8 py-4">
+        <h1 class="text-2xl font-semibold text-blue-500">Indeat</h1>
+
+        <div class="flex space-x-2 divide-x">
+            <div class="language text-sm font-semibold space-x-2 self-center">
+                <a href="#!">SV</a>
+                <a href="#!" class="text-gray-300">EN</a>
+            </div>
+
+            <button class="self-center pl-2 uppercase font-bold">
+                <i class="fas fa-user-circle text-blue-500"></i>
+                <span class="text-sm self-center">Login</span>
+            </button>
+
+            <button class="self-center pl-2">
+                <svg class="w-4 h-5" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.5 0.239502C16.3755 0.239272 18.1797 0.95872 19.5405 2.24951C20.9013 3.54029 21.7149 5.30401 21.8136 7.177H26.5974C26.8182 7.177 27.0365 7.22444 27.2374 7.31611C27.4383 7.40778 27.6171 7.54153 27.7618 7.70832C27.9066 7.87511 28.0138 8.07105 28.0762 8.28286C28.1386 8.49468 28.1548 8.71743 28.1237 8.93604L25.4812 27.436C25.4289 27.8036 25.2457 28.1398 24.9653 28.3831C24.685 28.6264 24.3262 28.7603 23.955 28.7603H5.04491C4.6737 28.7603 4.31495 28.6264 4.03457 28.3831C3.75419 28.1398 3.571 27.8036 3.51866 27.436L0.876242 8.93604C0.845106 8.71743 0.861298 8.49468 0.923721 8.28286C0.986144 8.07105 1.09334 7.87511 1.23806 7.70832C1.38278 7.54153 1.56163 7.40778 1.76253 7.31611C1.96343 7.22444 2.18167 7.177 2.40249 7.177H7.18628C7.285 5.30401 8.09862 3.54029 9.4594 2.24951C10.8202 0.95872 12.6244 0.239272 14.5 0.239502ZM23.0701 22.9791H5.92828C5.83986 22.9791 5.75248 22.9981 5.67204 23.0348C5.59161 23.0715 5.52002 23.1251 5.46211 23.1919C5.40421 23.2587 5.36136 23.3372 5.33645 23.4221C5.31155 23.5069 5.30518 23.5961 5.31778 23.6836L5.63845 25.919C5.65959 26.0659 5.73295 26.2002 5.84508 26.2973C5.95722 26.3944 6.1006 26.4479 6.24895 26.4478H22.7479C22.8962 26.4479 23.0396 26.3944 23.1517 26.2973C23.2639 26.2002 23.3372 26.0659 23.3584 25.919L23.679 23.6836C23.6916 23.5961 23.6853 23.5069 23.6604 23.4221C23.6355 23.3372 23.5926 23.2587 23.5347 23.1919C23.4768 23.1251 23.4052 23.0715 23.3248 23.0348C23.2443 22.9981 23.157 22.9791 23.0685 22.9791H23.0701ZM24.9972 9.4895H4.0012C3.91278 9.48948 3.82539 9.50848 3.74496 9.5452C3.66453 9.58192 3.59293 9.63551 3.53503 9.70233C3.47713 9.76916 3.43427 9.84765 3.40937 9.93249C3.38447 10.0173 3.3781 10.1065 3.3907 10.194L4.81212 20.1378C4.83326 20.2846 4.90662 20.4189 5.01875 20.516C5.13088 20.6132 5.27427 20.6666 5.42262 20.6666H23.5757C23.7241 20.6666 23.8675 20.6132 23.9796 20.516C24.0917 20.4189 24.1651 20.2846 24.1862 20.1378L25.6077 10.194C25.6203 10.1065 25.6139 10.0173 25.589 9.93249C25.5641 9.84765 25.5212 9.76916 25.4633 9.70233C25.4054 9.63551 25.3338 9.58192 25.2534 9.5452C25.173 9.50848 25.0856 9.48948 24.9972 9.4895ZM14.5 2.552C13.3346 2.55189 12.2056 2.95787 11.3072 3.70011C10.4088 4.44236 9.79714 5.47447 9.57741 6.61892C9.56447 6.68694 9.56671 6.75699 9.58398 6.82404C9.60124 6.8911 9.63311 6.95351 9.67729 7.00683C9.72147 7.06014 9.77689 7.10304 9.83957 7.13246C9.90226 7.16188 9.97066 7.17709 10.0399 7.177H18.9754C19.0424 7.17695 19.1086 7.16219 19.1693 7.13375C19.23 7.10532 19.2837 7.06391 19.3266 7.01245C19.3696 6.96099 19.4007 6.90073 19.4178 6.83593C19.4349 6.77113 19.4375 6.70336 19.4256 6.63742C19.2096 5.48904 18.5991 4.45224 17.6997 3.70625C16.8003 2.96027 15.6685 2.55199 14.5 2.552Z" fill="#18A0FB"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+    
+    <div class="grid grid-cols-10">
+        <div class="col-span-10 lg:col-span-7 xl:col-span-8">
+            <img src="assets/images/b2s1-hero 1.png" class="w-full" alt="">
+
+            <div class="w-10/12 mx-auto grid grid-cols-3 gap-12 py-6">
+                <div>
+                    <h3 class="font-semibold text-2xl">Krubb</h3>
+
+                    <div class="flex justify-between text-sm mt-2">
+                        <a href="#!" class="bg-blue-500 hover:bg-blue-400 transition duration-300 hover:shadow-2xl hover:text-black px-6 py-1 rounded-sm text-center text-white">Free Delivery</a>
+                        <p class="self-center"><i class="fas fa-star text-blue-500 mr-1"></i>4.2/<span class="text-gray-500">5</span></p>
+                    </div>
+
+                    <p class="text-sm mt-2 font-thin"><span class="text-blue-500 font-semibold">$$$.</span>Hamburgare</p>
+                </div>
+                
+                <div class="flex flex-col self-center text-sm">
+                    <a href="#!" class="bg-blue-500 hover:bg-blue-400 transition duration-300 hover:shadow-2xl hover:text-black px-6 py-2 rounded-sm text-center text-white w-max mx-auto">Share Link</a>
+                </div>
+
+                <div class="flex flex-col self-center text-sm">
+                    <a href="#!" class="bg-blue-500 hover:bg-blue-400 transition duration-300 hover:shadow-2xl hover:text-black px-6 py-2 rounded-sm text-white w-max">Restaurant Information</a>
+                </div>
+            </div>
+
+            <div class="container mx-auto border-b border-t bg-gray-50">
+                <div class="w-10/12 mx-auto flex justify-between">
+                    <h1 class="self-center font-bold uppercase text-2xl">Fri Liverance</h1>
+
+                    <svg width="106" height="88" viewBox="0 0 106 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0)">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M86.5236 17.434H92.2054V57.7147L86.5236 17.434ZM48.6438 71.358V17.434H52.9303L48.6438 71.358Z" stroke="#18A0FB"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M66.7944 21.585H68.2465V41.5095H66.7944V21.585ZM72.6027 39.8491H92.9314V41.5095H72.6027V39.8491ZM72.6027 46.4906H92.9314V48.151H72.6027V46.4906ZM47.9177 46.4906H68.2465V48.151H47.9177V46.4906Z" fill="#18A0FB"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M47.9177 39.8491H68.2465V41.5095H47.9177V39.8491ZM72.6027 19.9246H74.0547V41.5095H72.6027V19.9246ZM66.7944 46.4906H68.2465V89.6604H66.7944V46.4906ZM72.6027 46.4906H74.0547V89.6604H72.6027V46.4906Z" fill="#18A0FB"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M72.6029 14.7391C74.0302 14.676 73.9997 14.6379 75.4257 14.7391C76.8487 14.8404 77.6981 15.2157 79.0238 14.6578C80.3496 14.1016 81.4996 12.9393 81.7566 11.4649C82.0151 9.99046 82.0427 8.74186 80.6385 8.46623C79.368 8.21718 78.1265 9.20842 77.0984 10.0303C75.2645 11.4964 73.8603 12.2834 72.6029 11.4649C75.0772 7.74563 76.368 5.95076 79.7905 3.17959C81.1003 2.11695 82.85 1.18714 84.35 1.92435C85.7004 2.5885 86.5745 4.24887 86.804 5.79469C87.2004 8.45959 87.273 11.2673 86.7575 13.9089C85.9763 17.9171 83.4671 18.2359 82.3781 18.2591C78.4575 18.3388 76.0036 17.7444 72.6029 14.7391V14.7391ZM68.2467 16.3314C67.5613 16.2152 66.1993 16.8794 65.3426 16.9458C64.4859 17.0089 62.8683 16.6237 61.7183 16.3314C59.9032 15.8682 59.7478 14.7873 59.151 12.9891C58.8897 12.2004 58.8475 10.7476 59.4792 10.2578C60.5973 9.39106 65.2119 12.9243 66.7946 14.9434C67.0633 15.2871 67.8561 16.7864 68.2467 16.9441C68.6373 17.1035 68.1451 12.8895 68.2467 12.4528C65.4718 8.41144 64.0009 6.43725 59.8538 4.13099C58.6109 3.44193 57.0717 2.9488 55.8563 3.69099C54.7092 4.39001 54.2823 5.92253 54.063 7.32057C53.5652 10.5095 53.6195 13.7791 54.2227 16.9441C54.5756 18.7971 55.3365 20.8626 57.0107 21.4354C58.1869 21.8373 59.456 21.3607 60.5857 20.8261C63.2879 19.5476 65.9321 18.3023 68.2467 16.3314V16.3314Z" stroke="#18A0FB"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M69.3241 19.2736C69.6146 18.3222 69.8527 17.2811 69.5768 16.3231C69.3009 15.3684 68.3048 14.6279 67.5163 15.0795C64.2412 20.672 60.0517 25.4879 55.1782 29.2624C57.0905 28.8442 58.9398 28.1115 60.6684 27.0873C60.2526 29.3231 59.3887 31.4181 58.1448 33.2075C63.3722 30.6671 67.4583 25.3971 69.3241 19.2736ZM71.1508 16.6037C72.1208 19.9128 73.9809 21.6928 75.6537 24.6399C77.3279 27.5854 79.6468 30.1806 82.5451 31.5471L80.8709 27.2069C82.2678 28.2197 84.0451 28.5667 85.6714 28.145C81.0885 24.293 77.0703 19.6322 73.7674 14.3373C73.3681 13.698 73.1692 14.4784 72.6029 14.9433C72.1716 15.297 70.9853 16.0392 71.1508 16.6037Z" stroke="#18A0FB"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M71.6648 15.3618C70.5438 15.7951 69.6769 15.8981 68.9436 15.6191C68.1334 15.3103 67.5032 14.3788 67.5206 13.4407C67.5322 12.8264 67.811 12.1921 68.2466 11.7521C68.646 11.3487 69.1731 11.0797 69.8366 10.9153C70.9242 10.648 71.8942 10.8107 72.5593 11.4317C73.2737 12.1008 73.5539 13.4822 73.1226 14.2875C72.8743 14.7524 72.4286 15.0662 71.6648 15.3618V15.3618Z" stroke="#18A0FB"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M30.1549 60.6038H48.6439V88.8285L30.1549 60.6038ZM0.726074 87.9601V60.6038H13.3183L0.726074 87.9601Z" stroke="#18A0FB"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.4246 63.0944H18.8766V89.6604H17.4246V63.0944Z" fill="#18A0FB"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 73.0566H49.3699V74.717H0V73.0566Z" fill="#18A0FB"/>
+                        <path d="M16.5027 57.6865C13.7801 52.7867 8.02997 47.4021 5.56438 49.4128C4.53342 50.2546 1.21983 58.3954 5.77638 59.4548M14.5207 63.0943L11.6165 69.7358L14.5207 63.0943ZM27.5892 78.0377L20.3289 61.4339L27.5892 78.0377ZM19.8134 58.3755C22.7117 53.6601 26.487 50.0172 28.3631 52.0462C29.5305 53.3081 33.6253 66.9746 25.9004 65.369C25.9004 65.369 21.3613 64.4675 18.9262 63.712L19.8134 58.3755Z" stroke="#18A0FB"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.2471 62.7523C17.0733 63.0512 17.9648 63.2421 18.7925 62.9466C19.6202 62.651 20.3491 61.7511 20.3288 60.7084C20.3143 60.0343 19.9919 59.405 19.5519 58.9882C19.112 58.5731 18.5675 58.3473 18.0186 58.2195C17.1081 58.0086 16.099 58.0767 15.3497 58.7342C14.6004 59.3917 14.2461 60.7599 14.7703 61.6814C15.1028 62.2625 15.6851 62.5498 16.2471 62.7523V62.7523Z" stroke="#18A0FB"/>
+                        <path d="M83.1303 64.9125C81.6782 64.9125 78.7741 57.3345 86.0344 60.5822C93.2946 63.8299 93.2946 65.995 93.2946 65.995M82.0412 88.8302V67.2453H102.37V88.8302H82.0412ZM87.1234 66.4151L103.096 83.0189L87.1234 66.4151ZM82.7672 71.3962L100.918 90.4906L82.7672 71.3962Z" stroke="#18A0FB"/>
+                        <path d="M86.8053 57.6998C85.8978 57.6998 84.0827 50.9636 88.6204 53.851C93.1595 56.7384 92.933 66.4151 92.933 66.4151" stroke="#18A0FB"/>
+                        <path d="M103.096 64.9124C104.548 64.9124 107.452 57.3345 100.192 60.5822C92.9317 63.8299 92.9317 65.995 92.9317 65.995M97.6073 59.8798C98.5163 59.8798 100.331 54.8273 95.7923 56.9908C91.2561 59.1592 91.4826 66.4151 91.4826 66.4151L97.6073 59.8798Z" stroke="#18A0FB"/>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="container mx-auto border-b border-t h-20 flex">
+                <div class="w-10/12 mx-auto flex space-x-10 text-sm">
+                    <button class="hover-border-b uppercase transition duration-500">popular</button>
+                    <button class="hover-border-b uppercase transition duration-500">Lunchmeny</button>
+                    <button class="hover-border-b uppercase transition duration-500">Förrätter</button>
+                    <button class="hover-border-b uppercase transition duration-500">Hamburgare</button>
+                    <button class="hover-border-b uppercase transition duration-500">Sallader</button>
+                    <button class="hover-border-b uppercase transition duration-500">Dippsåser</button>
+                    <button class="hover-border-b uppercase transition duration-500">Dryck</button>
+                </div>
+            </div>
+
+            <div class="container mx-auto border-b border-t h-20 flex">
+                <div class="w-10/12 mx-auto grid gap-24 grid-cols-2">
+                    <div>div</div>
+                    <div>div</div>
+                </div>
+            </div>
+        </div>
+        <div class="hidden lg:block lg:col-span-3 xl:col-span-2"></div>
+    </div>
+
+    <footer>
+        <div class="indeat-container mx-auto px-6 md:px-0 flex justify-between border-t border-b border-gray-300 py-8 mt-12">
+            <h3 class="self-center text-gray-700 text-3xl font-semibold">Indeat</h3>
+
+            <div class="flex space-x-2 self-center">
+                <a href="#!" class="text-white bg-gray-400 w-6 text-center rounded-full"><i class="fab fa-facebook-f"></i></a>
+                <a href="#!" class="text-white bg-gray-400 w-6 text-center rounded-full"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="indeat-container mx-auto px-6 md:px-0 grid grid-cols-1 md:grid-cols-4 border-b border-gray-300 py-8">
+            <h3 class="self-center col-span-2 text-gray-700 text-sm text-center md:text-left mb-3 md:mb-0">© 2021 Indeat</h3>
+
+            <div class="flex flex-wrap col-span-2 justify-center md:justify-end self-center space-x-4 text-sm text-gray-500">
+                <a href="#!">Terms & Conditions</a>
+                <a href="#!">Privacy Policy</a>
+                <a href="#!">About us</a>
+                <a href="#!">FAQ</a>
+                <a href="#!">Help Center</a>
+                <a href="#!">Press & Media</a>
+                <a href="#!">For partners</a>
+                <a href="#!">foodpedia Webshop for Indeat partners</a>
+                <a href="#!">Jobs</a>
+                <a href="#!">Become a rider</a>
+                <a href="#!">Refer-a-Friend</a>
+                <a href="#!">Partner Agreements</a>
+            </div>
+        </div>
+
+        <div class="indeat-container mx-auto px-6 md:px-0 py-8">
+            <h3 class="text-center font-semibold text-lg text-gray-700">Top rated restaurants</h3>
+        </div>
+
+        <div class="indeat-container mx-auto px-6 md:px-0 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+                <div>
+                    <h4 class="text-lg text-gray-800 mb-4">FOOD DELIVERY IN STOCKHOLM</h4>
+
+                    <div class="flex flex-col font-light text-gray-600">
+                        <a href="#!">Täby pizza express</a>
+                        <a href="#!">Pizzeria Palermo (Tyresö)</a>
+                        <a href="#!">Pizzeria Pomodoro</a>
+                        <a href="#!">Thai Enjoy</a>
+                        <a href="#!">Itamae Sushi</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg text-gray-800 mb-4">FOOD DELIVERY IN GÖTEBORG</h4>
+
+                    <div class="flex flex-col font-light text-gray-600">
+                        <a href="#!">Täby pizza express</a>
+                        <a href="#!">Pizzeria Palermo (Tyresö)</a>
+                        <a href="#!">Pizzeria Pomodoro</a>
+                        <a href="#!">Thai Enjoy</a>
+                        <a href="#!">Itamae Sushi</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg text-gray-800 mb-4">FOOD DELIVERY IN MALMÖ</h4>
+
+                    <div class="flex flex-col font-light text-gray-600">
+                        <a href="#!">Täby pizza express</a>
+                        <a href="#!">Pizzeria Palermo (Tyresö)</a>
+                        <a href="#!">Pizzeria Pomodoro</a>
+                        <a href="#!">Thai Enjoy</a>
+                        <a href="#!">Itamae Sushi</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg text-gray-800 mb-4">FOOD DELIVERY IN UPPSALA</h4>
+
+                    <div class="flex flex-col font-light text-gray-600">
+                        <a href="#!">Täby pizza express</a>
+                        <a href="#!">Pizzeria Palermo (Tyresö)</a>
+                        <a href="#!">Pizzeria Pomodoro</a>
+                        <a href="#!">Thai Enjoy</a>
+                        <a href="#!">Itamae Sushi</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg text-gray-800 mb-4">FOOD DELIVERY IN ÖREBRO</h4>
+
+                    <div class="flex flex-col font-light text-gray-600">
+                        <a href="#!">Täby pizza express</a>
+                        <a href="#!">Pizzeria Palermo (Tyresö)</a>
+                        <a href="#!">Pizzeria Pomodoro</a>
+                        <a href="#!">Thai Enjoy</a>
+                        <a href="#!">Itamae Sushi</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg text-gray-800 mb-4">FOOD DELIVERY IN LINKÖPING</h4>
+
+                    <div class="flex flex-col font-light text-gray-600">
+                        <a href="#!">Täby pizza express</a>
+                        <a href="#!">Pizzeria Palermo (Tyresö)</a>
+                        <a href="#!">Pizzeria Pomodoro</a>
+                        <a href="#!">Thai Enjoy</a>
+                        <a href="#!">Itamae Sushi</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg text-gray-800 mb-4">FOOD DELIVERY IN HELSINGBORG</h4>
+
+                    <div class="flex flex-col font-light text-gray-600">
+                        <a href="#!">Täby pizza express</a>
+                        <a href="#!">Pizzeria Palermo (Tyresö)</a>
+                        <a href="#!">Pizzeria Pomodoro</a>
+                        <a href="#!">Thai Enjoy</a>
+                        <a href="#!">Itamae Sushi</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg text-gray-800 mb-4">FOOD DELIVERY IN UPPSALA</h4>
+
+                    <div class="flex flex-col font-light text-gray-600">
+                        <a href="#!">Täby pizza express</a>
+                        <a href="#!">Pizzeria Palermo (Tyresö)</a>
+                        <a href="#!">Pizzeria Pomodoro</a>
+                        <a href="#!">Thai Enjoy</a>
+                        <a href="#!">Itamae Sushi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="indeat-container mx-auto px-6 md:px-0 py-8">
+            <h3 class="text-center font-semibold text-lg text-gray-700">Other Chains</h3>
+
+            <div class="divide-x flex flex-wrap justify-center gap-2 text-sm mt-6 text-gray-600">
+                <a href="#!" class="pl-2">McDonald's</a>
+                <a href="#!" class="pl-2">Max</a>
+                <a href="#!" class="pl-2">Burger King</a>
+                <a href="#!" class="pl-2">KFC</a>
+                <a href="#!" class="pl-2">Hemmakväll</a>
+                <a href="#!" class="pl-2">Sibylla</a>
+                <a href="#!" class="pl-2">Subway</a>
+                <a href="#!" class="pl-2">Hemmakvall</a>
+                <a href="#!" class="pl-2">Pizzabakeren</a>
+                <a href="#!" class="pl-2">Beijing8</a>
+                <a href="#!" class="pl-2">Shamiat</a>
+                <a href="#!" class="pl-2">Pizzeria Bari</a>
+                <a href="#!" class="pl-2">SUSHI YAMA</a>
+                <a href="#!" class="pl-2">Hawaii poké</a>
+                <a href="#!" class="pl-2">Sushi Room</a>
+                <a href="#!" class="pl-2">Brödernas</a>
+                <a href="#!" class="pl-2">Taco Bar</a>
+                <a href="#!" class="pl-2">Mukut</a>
+                <a href="#!" class="pl-2">Jimmy & Joan's New York</a>
+                <a href="#!" class="pl-2">Wing It</a>
+                <a href="#!" class="pl-2">Sushi Yamma</a>
+                <a href="#!" class="pl-2">Jenin Grill</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
