@@ -62,3 +62,15 @@ body {
   transform: translateX(100%);
   background-color: #48bb78;
 }
+
+.rider-page-bg {
+    background-image: url('/assets/images/1-1500x1000\ 1.png');
+}
+
+.section-1-bg {
+    background-image: url('/assets/images/2-1500x1000\ 1.png');
+}
+
+.section-2-bg {
+    background-image: url('/assets/images/fodora06\ 2.png');
+}
