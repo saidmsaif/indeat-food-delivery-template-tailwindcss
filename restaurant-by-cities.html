@@ -48,7 +48,7 @@
         <div class="col-span-10 lg:col-span-7 xl:col-span-8">
             <img src="assets/images/b2s1-hero 1.png" class="w-full" alt="">
 
-            <div class="w-10/12 mx-auto grid grid-cols-3 gap-12 py-6">
+            <div class="px-6 lg:px-0 lg:w-10/12 mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 lg:gap-12 py-6">
                 <div>
                     <h3 class="font-semibold text-2xl">Krubb</h3>
 
@@ -60,12 +60,12 @@
                     <p class="text-sm mt-2 font-thin"><span class="text-blue-500 font-semibold">$$$.</span>Hamburgare</p>
                 </div>
                 
-                <div class="flex flex-col self-center text-sm">
-                    <a href="#!" class="bg-blue-500 hover:bg-blue-400 transition duration-300 hover:shadow-2xl hover:text-black px-6 py-2 rounded-sm text-center text-white w-max mx-auto">Share Link</a>
+                <div class="flex flex-col w-full md:w-auto self-center text-sm">
+                    <a href="#!" class="bg-blue-500 w-full md:w-auto hover:bg-blue-400 transition duration-300 hover:shadow-2xl hover:text-black px-6 py-2 rounded-sm text-center text-white lg:w-max mx-auto">Share Link</a>
                 </div>
 
-                <div class="flex flex-col self-center text-sm">
-                    <a href="#!" class="bg-blue-500 hover:bg-blue-400 transition duration-300 hover:shadow-2xl hover:text-black px-6 py-2 rounded-sm text-white w-max">Restaurant Information</a>
+                <div class="flex flex-col w-full md:w-auto self-center text-sm">
+                    <a href="#!" class="bg-blue-500 w-full md:w-auto hover:bg-blue-400 transition duration-300 hover:shadow-2xl hover:text-black px-6 py-2 rounded-sm text-center text-white lg:w-max mx-auto">Restaurant Information</a>
                 </div>
             </div>
 
@@ -95,7 +95,7 @@
             </div>
 
             <div class="container mx-auto border-b border-t h-20 flex">
-                <div class="w-10/12 mx-auto flex space-x-10 text-sm">
+                <div class="w-10/12 mx-auto flex space-x-10 text-sm overflow-x-scroll">
                     <button class="hover-border-b uppercase transition duration-500">popular</button>
                     <button class="hover-border-b uppercase transition duration-500">Lunchmeny</button>
                     <button class="hover-border-b uppercase transition duration-500">Förrätter</button>
@@ -106,10 +106,102 @@
                 </div>
             </div>
 
-            <div class="container mx-auto border-b border-t h-20 flex">
-                <div class="w-10/12 mx-auto grid gap-24 grid-cols-2">
-                    <div>div</div>
-                    <div>div</div>
+            <div class="container mx-auto border-b border-t py-6 flex">
+                <div class="w-10/12 mx-auto">
+                    <h1 class="flex text-2xl font-semibold">
+                        <svg class="mr-2 self-center" width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.519 6.39665C10.001 5.06165 9.38902 3.48065 9.68602 1.65665L9.73102 1.40465C9.75204 1.30228 9.74042 1.19591 9.6978 1.10049C9.65519 1.00507 9.58372 0.925424 9.49346 0.872759C9.4032 0.820094 9.29869 0.797063 9.19466 0.80691C9.09062 0.816758 8.99229 0.858986 8.91352 0.927651L8.40952 1.37465C7.20952 2.45015 6.46402 3.23465 6.17302 3.72965L6.06802 3.92315C5.52352 4.98665 5.00752 7.15715 6.99952 9.32615C8.45752 10.5862 8.00002 12.4762 6.17302 12.4762C5.38552 12.4762 4.80502 10.8937 4.43002 7.72715L4.35952 7.07315C4.35038 6.97945 4.31495 6.89025 4.25731 6.81582C4.19967 6.74138 4.12217 6.68475 4.03375 6.65246C3.94532 6.62016 3.84956 6.61351 3.75752 6.63327C3.66548 6.65303 3.58089 6.6984 3.51352 6.76415C0.440018 9.72965 -0.213982 12.8797 1.55302 16.2112C2.03975 17.0544 2.68785 17.7936 3.46029 18.3864C4.23274 18.9792 5.1144 19.414 6.05491 19.6659C6.99542 19.9179 7.97637 19.9822 8.94171 19.855C9.90705 19.7278 10.8379 19.4116 11.681 18.9247C15.227 16.8771 16.6715 12.7147 15.0005 9.99965L14.654 9.54365C13.778 8.40665 13.559 8.19065 11.519 6.39665Z" fill="#18A0FB"/>
+                        </svg>
+                        <span>Popular</span>
+                    </h1>
+                    <div class="grid gap-8 grid-cols-1 md:grid-cols-2 mt-6">
+                        <div class="p-4 shadow-xl">
+                            <h4 class="text-lg font-semibold">Smokeyburgare</h4>
+                            <p class="text-gray-500">150g färskmalet svenskt nötkött, sallad, dressing, tomat, bacon, bbq-sås och cheddarost. Serveras med mix fries.</p>
+
+                            <div class="flex justify-between mt-3">
+                                <h6 class="uppercase text-gray-700 text-sm">from 130 kr</h6>
+
+                                <div class="flex space-x-2">
+                                    <button>
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 17.5C6.44365 17.5 2.75 14.1421 2.75 10C2.75 5.85786 6.44365 2.5 11 2.5C15.5563 2.5 19.25 5.85786 19.25 10C19.25 14.1421 15.5563 17.5 11 17.5ZM11 16.25C14.797 16.25 17.875 13.4518 17.875 10C17.875 6.54822 14.797 3.75 11 3.75C7.20304 3.75 4.125 6.54822 4.125 10C4.125 13.4518 7.20304 16.25 11 16.25ZM10.175 13.75V8.75H11.825V13.75H10.175ZM11.0466 7.90771C10.5032 7.90771 10.0909 7.54883 10.0909 7.07886C10.0909 6.60889 10.5032 6.25 11.0466 6.25C11.59 6.25 12.0022 6.60889 12.0022 7.07886C12.0022 7.54883 11.59 7.90771 11.0466 7.90771Z" fill="#18A0FB"/>
+                                        </svg>
+                                    </button>
+                                    <button>
+                                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.7656 0.515625H1.23438C0.836816 0.515625 0.515625 0.836816 0.515625 1.23438V17.7656C0.515625 18.1632 0.836816 18.4844 1.23438 18.4844H17.7656C18.1632 18.4844 18.4844 18.1632 18.4844 17.7656V1.23438C18.4844 0.836816 18.1632 0.515625 17.7656 0.515625ZM13.8125 10.0391C13.8125 10.1379 13.7316 10.2188 13.6328 10.2188H10.2188V13.6328C10.2188 13.7316 10.1379 13.8125 10.0391 13.8125H8.96094C8.86211 13.8125 8.78125 13.7316 8.78125 13.6328V10.2188H5.36719C5.26836 10.2188 5.1875 10.1379 5.1875 10.0391V8.96094C5.1875 8.86211 5.26836 8.78125 5.36719 8.78125H8.78125V5.36719C8.78125 5.26836 8.86211 5.1875 8.96094 5.1875H10.0391C10.1379 5.1875 10.2188 5.26836 10.2188 5.36719V8.78125H13.6328C13.7316 8.78125 13.8125 8.86211 13.8125 8.96094V10.0391Z" fill="#18A0FB"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 shadow-xl">
+                            <h4 class="text-lg font-semibold">Smokeyburgare</h4>
+                            <p class="text-gray-500">150g färskmalet svenskt nötkött, sallad, dressing, tomat, bacon, bbq-sås och cheddarost. Serveras med mix fries.</p>
+
+                            <div class="flex justify-between mt-3">
+                                <h6 class="uppercase text-gray-700 text-sm">from 130 kr</h6>
+
+                                <div class="flex space-x-2">
+                                    <button>
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 17.5C6.44365 17.5 2.75 14.1421 2.75 10C2.75 5.85786 6.44365 2.5 11 2.5C15.5563 2.5 19.25 5.85786 19.25 10C19.25 14.1421 15.5563 17.5 11 17.5ZM11 16.25C14.797 16.25 17.875 13.4518 17.875 10C17.875 6.54822 14.797 3.75 11 3.75C7.20304 3.75 4.125 6.54822 4.125 10C4.125 13.4518 7.20304 16.25 11 16.25ZM10.175 13.75V8.75H11.825V13.75H10.175ZM11.0466 7.90771C10.5032 7.90771 10.0909 7.54883 10.0909 7.07886C10.0909 6.60889 10.5032 6.25 11.0466 6.25C11.59 6.25 12.0022 6.60889 12.0022 7.07886C12.0022 7.54883 11.59 7.90771 11.0466 7.90771Z" fill="#18A0FB"/>
+                                        </svg>
+                                    </button>
+                                    <button>
+                                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.7656 0.515625H1.23438C0.836816 0.515625 0.515625 0.836816 0.515625 1.23438V17.7656C0.515625 18.1632 0.836816 18.4844 1.23438 18.4844H17.7656C18.1632 18.4844 18.4844 18.1632 18.4844 17.7656V1.23438C18.4844 0.836816 18.1632 0.515625 17.7656 0.515625ZM13.8125 10.0391C13.8125 10.1379 13.7316 10.2188 13.6328 10.2188H10.2188V13.6328C10.2188 13.7316 10.1379 13.8125 10.0391 13.8125H8.96094C8.86211 13.8125 8.78125 13.7316 8.78125 13.6328V10.2188H5.36719C5.26836 10.2188 5.1875 10.1379 5.1875 10.0391V8.96094C5.1875 8.86211 5.26836 8.78125 5.36719 8.78125H8.78125V5.36719C8.78125 5.26836 8.86211 5.1875 8.96094 5.1875H10.0391C10.1379 5.1875 10.2188 5.26836 10.2188 5.36719V8.78125H13.6328C13.7316 8.78125 13.8125 8.86211 13.8125 8.96094V10.0391Z" fill="#18A0FB"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-4 shadow-xl">
+                            <h4 class="text-lg font-semibold">Smokeyburgare</h4>
+                            <p class="text-gray-500">150g färskmalet svenskt nötkött, sallad, dressing, tomat, bacon, bbq-sås och cheddarost. Serveras med mix fries.</p>
+
+                            <div class="flex justify-between mt-3">
+                                <h6 class="uppercase text-gray-700 text-sm">from 130 kr</h6>
+
+                                <div class="flex space-x-2">
+                                    <button>
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 17.5C6.44365 17.5 2.75 14.1421 2.75 10C2.75 5.85786 6.44365 2.5 11 2.5C15.5563 2.5 19.25 5.85786 19.25 10C19.25 14.1421 15.5563 17.5 11 17.5ZM11 16.25C14.797 16.25 17.875 13.4518 17.875 10C17.875 6.54822 14.797 3.75 11 3.75C7.20304 3.75 4.125 6.54822 4.125 10C4.125 13.4518 7.20304 16.25 11 16.25ZM10.175 13.75V8.75H11.825V13.75H10.175ZM11.0466 7.90771C10.5032 7.90771 10.0909 7.54883 10.0909 7.07886C10.0909 6.60889 10.5032 6.25 11.0466 6.25C11.59 6.25 12.0022 6.60889 12.0022 7.07886C12.0022 7.54883 11.59 7.90771 11.0466 7.90771Z" fill="#18A0FB"/>
+                                        </svg>
+                                    </button>
+                                    <button>
+                                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.7656 0.515625H1.23438C0.836816 0.515625 0.515625 0.836816 0.515625 1.23438V17.7656C0.515625 18.1632 0.836816 18.4844 1.23438 18.4844H17.7656C18.1632 18.4844 18.4844 18.1632 18.4844 17.7656V1.23438C18.4844 0.836816 18.1632 0.515625 17.7656 0.515625ZM13.8125 10.0391C13.8125 10.1379 13.7316 10.2188 13.6328 10.2188H10.2188V13.6328C10.2188 13.7316 10.1379 13.8125 10.0391 13.8125H8.96094C8.86211 13.8125 8.78125 13.7316 8.78125 13.6328V10.2188H5.36719C5.26836 10.2188 5.1875 10.1379 5.1875 10.0391V8.96094C5.1875 8.86211 5.26836 8.78125 5.36719 8.78125H8.78125V5.36719C8.78125 5.26836 8.86211 5.1875 8.96094 5.1875H10.0391C10.1379 5.1875 10.2188 5.26836 10.2188 5.36719V8.78125H13.6328C13.7316 8.78125 13.8125 8.86211 13.8125 8.96094V10.0391Z" fill="#18A0FB"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-4 shadow-xl">
+                            <h4 class="text-lg font-semibold">Smokeyburgare</h4>
+                            <p class="text-gray-500">150g färskmalet svenskt nötkött, sallad, dressing, tomat, bacon, bbq-sås och cheddarost. Serveras med mix fries.</p>
+
+                            <div class="flex justify-between mt-3">
+                                <h6 class="uppercase text-gray-700 text-sm">from 130 kr</h6>
+
+                                <div class="flex space-x-2">
+                                    <button>
+                                        <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 17.5C6.44365 17.5 2.75 14.1421 2.75 10C2.75 5.85786 6.44365 2.5 11 2.5C15.5563 2.5 19.25 5.85786 19.25 10C19.25 14.1421 15.5563 17.5 11 17.5ZM11 16.25C14.797 16.25 17.875 13.4518 17.875 10C17.875 6.54822 14.797 3.75 11 3.75C7.20304 3.75 4.125 6.54822 4.125 10C4.125 13.4518 7.20304 16.25 11 16.25ZM10.175 13.75V8.75H11.825V13.75H10.175ZM11.0466 7.90771C10.5032 7.90771 10.0909 7.54883 10.0909 7.07886C10.0909 6.60889 10.5032 6.25 11.0466 6.25C11.59 6.25 12.0022 6.60889 12.0022 7.07886C12.0022 7.54883 11.59 7.90771 11.0466 7.90771Z" fill="#18A0FB"/>
+                                        </svg>
+                                    </button>
+                                    <button>
+                                        <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.7656 0.515625H1.23438C0.836816 0.515625 0.515625 0.836816 0.515625 1.23438V17.7656C0.515625 18.1632 0.836816 18.4844 1.23438 18.4844H17.7656C18.1632 18.4844 18.4844 18.1632 18.4844 17.7656V1.23438C18.4844 0.836816 18.1632 0.515625 17.7656 0.515625ZM13.8125 10.0391C13.8125 10.1379 13.7316 10.2188 13.6328 10.2188H10.2188V13.6328C10.2188 13.7316 10.1379 13.8125 10.0391 13.8125H8.96094C8.86211 13.8125 8.78125 13.7316 8.78125 13.6328V10.2188H5.36719C5.26836 10.2188 5.1875 10.1379 5.1875 10.0391V8.96094C5.1875 8.86211 5.26836 8.78125 5.36719 8.78125H8.78125V5.36719C8.78125 5.26836 8.86211 5.1875 8.96094 5.1875H10.0391C10.1379 5.1875 10.2188 5.26836 10.2188 5.36719V8.78125H13.6328C13.7316 8.78125 13.8125 8.86211 13.8125 8.96094V10.0391Z" fill="#18A0FB"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
