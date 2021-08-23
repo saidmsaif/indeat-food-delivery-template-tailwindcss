@@ -60,7 +60,7 @@ body {
 
 #toogleA:checked ~ .dot {
   transform: translateX(100%);
-  background-color: #48bb78;
+  background-color: #0084F6;
 }
 
 .rider-page-bg {
