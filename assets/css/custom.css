@@ -51,7 +51,7 @@ body {
 }
 
 .treat-section-bg {
-    background-image: url('/assets/images/cuisine-food-india-indian-wallpaper-preview.jpg');
+    background-image: url('../images/cuisine-food-india-indian-wallpaper-preview.jpg');
 }
 
 .hover-border-b:hover {
@@ -64,17 +64,27 @@ body {
 }
 
 .rider-page-bg {
-    background-image: url('/assets/images/1-1500x1000\ 1.png');
+    background-image: url('../images/1-1500x1000\ 1.png');
 }
 
 .section-1-bg {
-    background-image: url('/assets/images/2-1500x1000\ 1.png');
+    background-image: url('../images/2-1500x1000\ 1.png');
 }
 
 .section-2-bg {
-    background-image: url('/assets/images/fodora06\ 2.png');
+    background-image: url('../images/fodora06\ 2.png');
 }
 
 .start-job-page-bg{
-    background-image: url('/assets/images/fodora02\ 5.png');
+    background-image: url('../images/fodora02\ 5.png');
+}
+.about-us-page-bg{
+    background-image: url('../images/about-hero-bg.png');
+}
+
+.terms-and-condition-bg{
+    background-image: url('../images/terms.png');
+}
+.privacy-policy-bg{
+    background-image: url('../images/privacy.png');
 }

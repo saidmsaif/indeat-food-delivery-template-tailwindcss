@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indeat - Food Delivery Management</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- Tailwind CSS File -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+    <!-- Website Header -->
+    <header class="mx-auto flex justify-between px-4 sm:px-6 md:px-8 py-4 shadow-lg filter drop-shadow-lg">
+        <h1 class="text-2xl font-semibold text-blue-500">Indeat</h1>
+
+        <div class="flex space-x-2 divide-x">
+            <div class="language text-sm font-semibold space-x-2 self-center">
+                <a href="#!">SV</a>
+                <a href="#!" class="text-gray-300">EN</a>
+            </div>
+
+            <button class="self-center pl-2 uppercase font-bold">
+                <i class="fas fa-user-circle text-blue-500"></i>
+                <span class="text-sm self-center">Login</span>
+            </button>
+
+            <button class="self-center pl-2">
+                <svg class="w-4 h-5 text-blue-500" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.5 0.239502C16.3755 0.239272 18.1797 0.95872 19.5405 2.24951C20.9013 3.54029 21.7149 5.30401 21.8136 7.177H26.5974C26.8182 7.177 27.0365 7.22444 27.2374 7.31611C27.4383 7.40778 27.6171 7.54153 27.7618 7.70832C27.9066 7.87511 28.0138 8.07105 28.0762 8.28286C28.1386 8.49468 28.1548 8.71743 28.1237 8.93604L25.4812 27.436C25.4289 27.8036 25.2457 28.1398 24.9653 28.3831C24.685 28.6264 24.3262 28.7603 23.955 28.7603H5.04491C4.6737 28.7603 4.31495 28.6264 4.03457 28.3831C3.75419 28.1398 3.571 27.8036 3.51866 27.436L0.876242 8.93604C0.845106 8.71743 0.861298 8.49468 0.923721 8.28286C0.986144 8.07105 1.09334 7.87511 1.23806 7.70832C1.38278 7.54153 1.56163 7.40778 1.76253 7.31611C1.96343 7.22444 2.18167 7.177 2.40249 7.177H7.18628C7.285 5.30401 8.09862 3.54029 9.4594 2.24951C10.8202 0.95872 12.6244 0.239272 14.5 0.239502ZM23.0701 22.9791H5.92828C5.83986 22.9791 5.75248 22.9981 5.67204 23.0348C5.59161 23.0715 5.52002 23.1251 5.46211 23.1919C5.40421 23.2587 5.36136 23.3372 5.33645 23.4221C5.31155 23.5069 5.30518 23.5961 5.31778 23.6836L5.63845 25.919C5.65959 26.0659 5.73295 26.2002 5.84508 26.2973C5.95722 26.3944 6.1006 26.4479 6.24895 26.4478H22.7479C22.8962 26.4479 23.0396 26.3944 23.1517 26.2973C23.2639 26.2002 23.3372 26.0659 23.3584 25.919L23.679 23.6836C23.6916 23.5961 23.6853 23.5069 23.6604 23.4221C23.6355 23.3372 23.5926 23.2587 23.5347 23.1919C23.4768 23.1251 23.4052 23.0715 23.3248 23.0348C23.2443 22.9981 23.157 22.9791 23.0685 22.9791H23.0701ZM24.9972 9.4895H4.0012C3.91278 9.48948 3.82539 9.50848 3.74496 9.5452C3.66453 9.58192 3.59293 9.63551 3.53503 9.70233C3.47713 9.76916 3.43427 9.84765 3.40937 9.93249C3.38447 10.0173 3.3781 10.1065 3.3907 10.194L4.81212 20.1378C4.83326 20.2846 4.90662 20.4189 5.01875 20.516C5.13088 20.6132 5.27427 20.6666 5.42262 20.6666H23.5757C23.7241 20.6666 23.8675 20.6132 23.9796 20.516C24.0917 20.4189 24.1651 20.2846 24.1862 20.1378L25.6077 10.194C25.6203 10.1065 25.6139 10.0173 25.589 9.93249C25.5641 9.84765 25.5212 9.76916 25.4633 9.70233C25.4054 9.63551 25.3338 9.58192 25.2534 9.5452C25.173 9.50848 25.0856 9.48948 24.9972 9.4895ZM14.5 2.552C13.3346 2.55189 12.2056 2.95787 11.3072 3.70011C10.4088 4.44236 9.79714 5.47447 9.57741 6.61892C9.56447 6.68694 9.56671 6.75699 9.58398 6.82404C9.60124 6.8911 9.63311 6.95351 9.67729 7.00683C9.72147 7.06014 9.77689 7.10304 9.83957 7.13246C9.90226 7.16188 9.97066 7.17709 10.0399 7.177H18.9754C19.0424 7.17695 19.1086 7.16219 19.1693 7.13375C19.23 7.10532 19.2837 7.06391 19.3266 7.01245C19.3696 6.96099 19.4007 6.90073 19.4178 6.83593C19.4349 6.77113 19.4375 6.70336 19.4256 6.63742C19.2096 5.48904 18.5991 4.45224 17.6997 3.70625C16.8003 2.96027 15.6685 2.55199 14.5 2.552Z" fill="#3B82F6"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <div class="terms-and-condition-bg bg-cover bg-no-repeat  bg-gray-800 bg-blend-overlay py-16 sm:py-20 md:py-24 lg:py-28 xl:py-36">
+        <div class="indeat-container mx-auto w-max text-white px-4 sm:px-0">
+            <h5 class="text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold uppercase">terms and condition</h5>
+        </div>
+    </div>
+    <div class="bg-white py-2 sm:py-2 md:py-2 xl:py-14">
+        <div class="indeat-container mx-auto px-4 self-center">
+            <div class="text-left ">
+                <h1 class="text-lg uppercase font-bold lg:text-xl xl:text-3xl md:text-2xl sm:text-lg">GENERAL TERMS AND CONDITIONS(March 2021)</h1>
+                <p class="mt-5 text-sm text-gray-600">These general terms and conditions (the "Terms") apply between you as a customer (the "customer", "you") and Foodora AB, Reg. No. 559007-5643, address Jakobsbergsgatan 24, 111 44 Stockholm ("indeat"), when ordering food, drinks and other products (together the "Products") provided on www.indeat.se or foodora's downloadable mobile application (together the "Platform"). By registering a user account with foodora or by using the Platform and/or receiving Supply (defined below) you confirm that you have read and agree to the Terms.
+                     By using the Platform, you can order Products available on the Platform from time to time. <br> <br>
+                    The Platform differentiates between Products (meals) prepared by restaurants ("Restaurants") and Products supplied by shops ("Shops"). The Restaurants and Shops are together referred to as the "Partners" and separately as a "Partner".<br> <br>
+                    Products sold via the Platform are intended for personal use and are not to be resold or transferred.<br> <br> 
+                    These Terms constitute the entire agreement between you and foodora of all matters to which the Terms refer to. By ordering Products through the Platform or by otherwise using the Platform, you express to have accepted these Terms. By accepting these Terms, you are aware that we can send you emails or text messages in relation to you order.<br> <br>  
+                    Indeat reserves the right to update these Terms at any time. The updated terms shall apply for orders placed on or after the date the updated terms are made available on the Platform. These Terms have last been updated as of 26-03-2021.<br> <br>
+                    If you have any questions regarding the Terms you may always contact our customer service.</p>
+                    
+            </div>
+            <div class="text-left mt-10 ">
+                <h6 class="text-black uppercase font-semibold text-sm mt-7">1. Products and services</h6>
+                <p class="mt-5 text-sm text-gray-600">Orders from Restaurants <br> <br>
+                    By ordering Products prepared by Restaurants through the Platform, you enter into an agreement directly with foodora as seller of the Products and accept these General Terms and Conditions.<br> <br> 
+                    Order from Shops<br> <br> By ordering Products from Shops through the Platform, you enter into an agreement with the Shop and accept these General Terms and Conditions and, where applicable, the Shop’s own terms of sale.<br> <br> General<br> <br>  
+                    Indeat sells and delivers meals prepared by Restaurants and delivers (if applicable) Products sold by Shops (jointly referred to as the "Supply") to you unless otherwise stated in these Terms. The Products are transported and delivered to the delivery address you specified when ordering. Delivery is made by foodora's couriers or delivery partners, or through foodora's Partners, unless you choose to pick up the Product at the Partner's location ("Pick-Up").<br> <br>
+                    Indeat operates the Platform and administers the payments made through it. At the time of your order, you pay for the Product, including any delivery fees, directly to Indeat. You do not pay anything to the courier who delivers the Product to you or to the Partner in connection with Pick-Up orders.<br> <br> 
+                    Indeat’s operations are registered with the Environment and Health Protection Board in Stockholm (Sw. Miljö- och hälsoskyddsnämnden i Stockholm). 
+                    This registration means that the operations are regularly monitored by the City of Stockholm authorities</p>
+                        <h6 class="text-black uppercase font-semibold text-sm mt-7">1.1 Products offered</h6>
+                            <p class="mt-5 text-sm text-gray-600">To ensure the delivery time and quality of the Product, you can only order Products dispatched from Partners with a business location near the delivery address you specify. 
+                            The range of Partners and Products available on the Platform varies from time to time and the customer is referred to the Platform
+                            for up-to-date information on this.</p>
+
+                                <h6 class="text-black uppercase font-semibold text-sm mt-7">1.3 Terms for delivery</h6>
+                                    <p class="mt-5 text-sm text-gray-600">Delivery When placing an order on the Platform with delivery (direct or pre-order), you acknowledge and agree that the Products ordered will be delivered to the location or street address provided by you for the relevant order. Delivery will be made immediately upon completion of the order by foodora's Partner as and if requested by you and therefore 
+                                        you acknowledge that the delivery service is non-refundable and that you do not have any statutory rights of withdrawal in relation to the delivery service.<br> <br> You must be present at the relevant delivery location or street address, unless you have confirmed when placing the order that the order is to be delivered by the door. If you are not available to receive the order upon delivery,
+                                         the courier may deliver the Products by the door to the extent no restrictions apply, e.g. the order contains Products for which customer identification or similar is required, in which case you will be deemed to have agreed that the delivery may be made by the door. Once the Products are delivered at the agreed location the risk will transfer to you.<br> <br> Indeat or its Partners are under no obligation to deliver any order by the door to the extent restrictions apply or if it is otherwise deemed inappropriate.<br> <br> You are responsible to remain available to receive calls at the phone number submitted by you on the Platform. If you cannot be reached at the phone number provided by you and delivery cannot be completed, or (in the case of orders including Products for which customer identification is required and/or for which restrictions apply) the person receiving the goods can not identify themselves or do not meet the requirements for delivery to be made, the delivery and the order may be cancelled. foodora is entitled to charge a fee of 200 SEK (or, if the order value is less, the full order value) to cover for costs and expenses related to the cancellation of the order. This will be charged by way of reducing the amount which can be refunded due to the failed delivery of your order. Your refund may additionally be reduced by the amount corresponding to any Products that foodora or the Partner is unable to resell. <br> <br> For orders which include Products for which customer identification or similar is required it may be required that the order is received by the person placing the order..<br> <br>Pick-up<br> <br>
+                                        If you have selected Pick-Up when placing the order, the Products are to be picked up by yourself at the Partner’s point of sale at the time specified on the Platform. The Partner may require that you identify yourself with valid identification when collecting the order and that no other restriction to deliver the Products apply.<br> <br> If the order is not picked up within a reasonable time
+                                         period from the specified Pick-Up time you may be charged full price for the relevant Products and/or any other costs of Indeat or the Partner in relation to the order.
+                                        </p>
+
+                                          <h6 class="text-black uppercase font-semibold text-sm mt-7">1.4 Food ingredients</h6>
+                                            <p class="mt-5 text-sm text-gray-600">Meals <br> <br>For meals made available on the Platform, a list of ingredients is provided by the Partner preparing the meal. However, we cannot guarantee that any such list or information is accurate/or up to date at all times and reserve ourselves for that the restaurants may have made changes to the ingredients included in the meal which we are not aware of. For this reason we kindly ask you to contact the relevant Restaurant directly for information about e.g. allergens, 
+                                                ingredients or the origin of raw materials. Contact details are provided for on the Platform.<br> <br> Meals marketed on the Platform are prepared and packaged by the Restaurants in premises which meet the requirements of the National Food Agency (Sw. Livsmedelsverket) and neither foodora, nor foodora's personnel prepare, patriciate or interfere with the preparation of meals or any ingredients they contain. Once the meal has been prepared, the Restaurant will pack the meal and, unless you have selected Pick-Up as the delivery method,
+                                                 it will be transported to you by a suitable means of transport.<br> <br>Meals from Restaurants are intended to be eaten immediately upon delivery, unless expressly stated otherwise, and foodora and the Restaurant are not responsible for the quality of the meal if consumed later.<br> <br>Food<br> <br>If your order contains pre-packaged food, it is important that you carefully read the list of ingredients on the packaging before consuming those foods, especially if you are allergic to certain food or ingredients. 
+                                                 Please note that foodora does not guarantee that the lists of ingredients displayed on the Platform are correct or up to date. If you have any questions about the ingredients of food marketed through the Platform, 
+                                                 please contact the relevant Partner.</p>
+                                                                  
+                        </div>
+                    </div>
+                </div>
+
+    <footer>
+        <div class="indeat-container mx-auto px-6 md:px-0 py-8 mt-12">
+            <h3 class="self-center text-gray-700 text-3xl font-semibold">Indeat</h3>
+
+            <div class="flex space-x-2 self-center">
+                <a href="#!" class="text-white bg-gray-400 w-6 text-center rounded-full"><i class="fab fa-facebook-f"></i></a>
+                <a href="#!" class="text-white bg-gray-400 w-6 text-center rounded-full"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="indeat-container mx-auto px-6 md:px-0 grid grid-cols-1 md:grid-cols-4 border-b border-gray-300 py-8">
+            <h3 class="self-center col-span-2 text-gray-700 text-sm text-center md:text-left mb-3 md:mb-0">© 2021 Indeat</h3>
+
+            <div class="flex flex-wrap col-span-2 justify-center md:justify-end self-center space-x-4 text-sm text-gray-500">
+                <a href="#!">Terms & Conditions</a>
+                <a href="#!">Privacy Policy</a>
+                <a href="#!">About us</a>
+                <a href="#!">FAQ</a>
+                <a href="#!">Help Center</a>
+                <a href="#!">Press & Media</a>
+                <a href="#!">For partners</a>
+                <a href="#!">foodpedia Webshop for Indeat partners</a>
+                <a href="#!">Jobs</a>
+                <a href="#!">Become a rider</a>
+                <a href="#!">Refer-a-Friend</a>
+                <a href="#!">Partner Agreements</a>
+            </div>
+        </div>
+
+        <div class="indeat-container mx-auto px-6 md:px-0 py-8">
+            <h3 class="text-center font-semibold text-lg text-gray-700">Top rated restaurants</h3>
+        </div>
+
+        <div class="indeat-container mx-auto px-6 md:px-0 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+                <div>
+                    <h4 class="text-lg text-gray-800 mb-4">FOOD DELIVERY IN STOCKHOLM</h4>
+
+                    <div class="flex flex-col font-light text-gray-600">
+                        <a href="#!">Täby pizza express</a>
+                        <a href="#!">Pizzeria Palermo (Tyresö)</a>
+                        <a href="#!">Pizzeria Pomodoro</a>
+                        <a href="#!">Thai Enjoy</a>
+                        <a href="#!">Itamae Sushi</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg text-gray-800 mb-4">FOOD DELIVERY IN GÖTEBORG</h4>
+
+                    <div class="flex flex-col font-light text-gray-600">
+                        <a href="#!">Täby pizza express</a>
+                        <a href="#!">Pizzeria Palermo (Tyresö)</a>
+                        <a href="#!">Pizzeria Pomodoro</a>
+                        <a href="#!">Thai Enjoy</a>
+                        <a href="#!">Itamae Sushi</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg text-gray-800 mb-4">FOOD DELIVERY IN MALMÖ</h4>
+
+                    <div class="flex flex-col font-light text-gray-600">
+                        <a href="#!">Täby pizza express</a>
+                        <a href="#!">Pizzeria Palermo (Tyresö)</a>
+                        <a href="#!">Pizzeria Pomodoro</a>
+                        <a href="#!">Thai Enjoy</a>
+                        <a href="#!">Itamae Sushi</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg text-gray-800 mb-4">FOOD DELIVERY IN UPPSALA</h4>
+
+                    <div class="flex flex-col font-light text-gray-600">
+                        <a href="#!">Täby pizza express</a>
+                        <a href="#!">Pizzeria Palermo (Tyresö)</a>
+                        <a href="#!">Pizzeria Pomodoro</a>
+                        <a href="#!">Thai Enjoy</a>
+                        <a href="#!">Itamae Sushi</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg text-gray-800 mb-4">FOOD DELIVERY IN ÖREBRO</h4>
+
+                    <div class="flex flex-col font-light text-gray-600">
+                        <a href="#!">Täby pizza express</a>
+                        <a href="#!">Pizzeria Palermo (Tyresö)</a>
+                        <a href="#!">Pizzeria Pomodoro</a>
+                        <a href="#!">Thai Enjoy</a>
+                        <a href="#!">Itamae Sushi</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg text-gray-800 mb-4">FOOD DELIVERY IN LINKÖPING</h4>
+
+                    <div class="flex flex-col font-light text-gray-600">
+                        <a href="#!">Täby pizza express</a>
+                        <a href="#!">Pizzeria Palermo (Tyresö)</a>
+                        <a href="#!">Pizzeria Pomodoro</a>
+                        <a href="#!">Thai Enjoy</a>
+                        <a href="#!">Itamae Sushi</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg text-gray-800 mb-4">FOOD DELIVERY IN HELSINGBORG</h4>
+
+                    <div class="flex flex-col font-light text-gray-600">
+                        <a href="#!">Täby pizza express</a>
+                        <a href="#!">Pizzeria Palermo (Tyresö)</a>
+                        <a href="#!">Pizzeria Pomodoro</a>
+                        <a href="#!">Thai Enjoy</a>
+                        <a href="#!">Itamae Sushi</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg text-gray-800 mb-4">FOOD DELIVERY IN UPPSALA</h4>
+
+                    <div class="flex flex-col font-light text-gray-600">
+                        <a href="#!">Täby pizza express</a>
+                        <a href="#!">Pizzeria Palermo (Tyresö)</a>
+                        <a href="#!">Pizzeria Pomodoro</a>
+                        <a href="#!">Thai Enjoy</a>
+                        <a href="#!">Itamae Sushi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="indeat-container mx-auto px-6 md:px-0 py-8">
+            <h3 class="text-center font-semibold text-lg text-gray-700">Other Chains</h3>
+
+            <div class="divide-x flex flex-wrap justify-center gap-2 text-sm mt-6 text-gray-600">
+                <a href="#!" class="pl-2">McDonald's</a>
+                <a href="#!" class="pl-2">Max</a>
+                <a href="#!" class="pl-2">Burger King</a>
+                <a href="#!" class="pl-2">KFC</a>
+                <a href="#!" class="pl-2">Hemmakväll</a>
+                <a href="#!" class="pl-2">Sibylla</a>
+                <a href="#!" class="pl-2">Subway</a>
+                <a href="#!" class="pl-2">Hemmakvall</a>
+                <a href="#!" class="pl-2">Pizzabakeren</a>
+                <a href="#!" class="pl-2">Beijing8</a>
+                <a href="#!" class="pl-2">Shamiat</a>
+                <a href="#!" class="pl-2">Pizzeria Bari</a>
+                <a href="#!" class="pl-2">SUSHI YAMA</a>
+                <a href="#!" class="pl-2">Hawaii poké</a>
+                <a href="#!" class="pl-2">Sushi Room</a>
+                <a href="#!" class="pl-2">Brödernas</a>
+                <a href="#!" class="pl-2">Taco Bar</a>
+                <a href="#!" class="pl-2">Mukut</a>
+                <a href="#!" class="pl-2">Jimmy & Joan's New York</a>
+                <a href="#!" class="pl-2">Wing It</a>
+                <a href="#!" class="pl-2">Sushi Yamma</a>
+                <a href="#!" class="pl-2">Jenin Grill</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
