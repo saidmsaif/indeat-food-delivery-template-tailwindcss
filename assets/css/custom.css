@@ -79,12 +79,12 @@ body {
     background-image: url('/assets/images/fodora02\ 5.png');
 }
 .about-us-page-bg{
-    background-image: url('/assets/images/cms-hero 1.png');
+    background-image: url('../images/cms-hero1.jpg');
 }
 
 .terms-and-condition-bg{
     background-image: url('/assets/images/wallpaper (1600x400) 3.png');
 }
 .privacy-policy-bg{
-    background-image: url('/assets/images/cms-hero-bg 1.png');
+    background-image: url('../images/cms-hero-bg 1.png');
 }
