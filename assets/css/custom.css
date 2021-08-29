@@ -79,21 +79,14 @@ body {
     background-image: url('../images/fodora02\ 5.png');
 }
 .about-us-page-bg{
-<<<<<<< HEAD
-    background-image: url('../images/cms-hero1.jpg');
-=======
     background-image: url('../images/about-hero-bg.png');
->>>>>>> 360542613215596b2f8160083f04e0d6fe873bf7
 }
 
 .terms-and-condition-bg{
     background-image: url('../images/terms.png');
 }
 .privacy-policy-bg{
-<<<<<<< HEAD
     background-image: url('../images/cms-hero-bg 1.png');
-=======
-    background-image: url('../images/privacy.png');
 }
 .faq-bg{
     background-image: url('../images/faq.png');
@@ -103,10 +96,6 @@ body {
 }
 .refar-a-friend-bg{
     background-image: url('../images/cms-hero 2.png');
-<<<<<<< HEAD
->>>>>>> 360542613215596b2f8160083f04e0d6fe873bf7
-}
-=======
 }
 .webshop-for-indeat-partner-bg{
     background-image: url('../images/fodora1 (6) 2.png');
@@ -115,4 +104,3 @@ body {
 .webshop-container {
     width: 500px;
 }
->>>>>>> e3e6e4ad4429b79158f4dd9e55f76d235dd7e1ad
