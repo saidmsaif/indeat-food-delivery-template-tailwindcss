@@ -26,7 +26,22 @@ module.exports = {
           '@screen xl': {
             maxWidth: '1280px',
           },
-        }
+        },
+        '.webshop-container': {
+          maxWidth: '100%',
+          '@screen sm': {
+            maxWidth: '400px',
+          },
+          '@screen md': {
+            maxWidth: '500px',
+          },
+          '@screen lg': {
+            maxWidth: '500px',
+          },
+          '@screen xl': {
+            maxWidth: '500px',
+          },
+        },
       })
     }
   ]
