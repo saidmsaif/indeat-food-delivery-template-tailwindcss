@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indeat - Food Delivery Management</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- Tailwind CSS File -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+    <header class="mx-auto flex justify-between px-4 sm:px-6 md:px-8 py-4 shadow-lg filter drop-shadow-lg">
+        <h1 class="text-2xl font-semibold text-blue-500">Indeat</h1>
+
+        <div class="flex space-x-2 divide-x">
+            <div class="language text-sm font-semibold space-x-2 self-center">
+                <a href="#!">SV</a>
+                <a href="#!" class="text-gray-300">EN</a>
+            </div>
+
+            <button class="self-center pl-2 uppercase font-bold">
+                <i class="fas fa-user-circle text-blue-500"></i>
+                <span class="text-sm self-center">Login</span>
+            </button>
+
+            <button class="self-center pl-2">
+                <svg class="w-4 h-5 text-blue-500" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.5 0.239502C16.3755 0.239272 18.1797 0.95872 19.5405 2.24951C20.9013 3.54029 21.7149 5.30401 21.8136 7.177H26.5974C26.8182 7.177 27.0365 7.22444 27.2374 7.31611C27.4383 7.40778 27.6171 7.54153 27.7618 7.70832C27.9066 7.87511 28.0138 8.07105 28.0762 8.28286C28.1386 8.49468 28.1548 8.71743 28.1237 8.93604L25.4812 27.436C25.4289 27.8036 25.2457 28.1398 24.9653 28.3831C24.685 28.6264 24.3262 28.7603 23.955 28.7603H5.04491C4.6737 28.7603 4.31495 28.6264 4.03457 28.3831C3.75419 28.1398 3.571 27.8036 3.51866 27.436L0.876242 8.93604C0.845106 8.71743 0.861298 8.49468 0.923721 8.28286C0.986144 8.07105 1.09334 7.87511 1.23806 7.70832C1.38278 7.54153 1.56163 7.40778 1.76253 7.31611C1.96343 7.22444 2.18167 7.177 2.40249 7.177H7.18628C7.285 5.30401 8.09862 3.54029 9.4594 2.24951C10.8202 0.95872 12.6244 0.239272 14.5 0.239502ZM23.0701 22.9791H5.92828C5.83986 22.9791 5.75248 22.9981 5.67204 23.0348C5.59161 23.0715 5.52002 23.1251 5.46211 23.1919C5.40421 23.2587 5.36136 23.3372 5.33645 23.4221C5.31155 23.5069 5.30518 23.5961 5.31778 23.6836L5.63845 25.919C5.65959 26.0659 5.73295 26.2002 5.84508 26.2973C5.95722 26.3944 6.1006 26.4479 6.24895 26.4478H22.7479C22.8962 26.4479 23.0396 26.3944 23.1517 26.2973C23.2639 26.2002 23.3372 26.0659 23.3584 25.919L23.679 23.6836C23.6916 23.5961 23.6853 23.5069 23.6604 23.4221C23.6355 23.3372 23.5926 23.2587 23.5347 23.1919C23.4768 23.1251 23.4052 23.0715 23.3248 23.0348C23.2443 22.9981 23.157 22.9791 23.0685 22.9791H23.0701ZM24.9972 9.4895H4.0012C3.91278 9.48948 3.82539 9.50848 3.74496 9.5452C3.66453 9.58192 3.59293 9.63551 3.53503 9.70233C3.47713 9.76916 3.43427 9.84765 3.40937 9.93249C3.38447 10.0173 3.3781 10.1065 3.3907 10.194L4.81212 20.1378C4.83326 20.2846 4.90662 20.4189 5.01875 20.516C5.13088 20.6132 5.27427 20.6666 5.42262 20.6666H23.5757C23.7241 20.6666 23.8675 20.6132 23.9796 20.516C24.0917 20.4189 24.1651 20.2846 24.1862 20.1378L25.6077 10.194C25.6203 10.1065 25.6139 10.0173 25.589 9.93249C25.5641 9.84765 25.5212 9.76916 25.4633 9.70233C25.4054 9.63551 25.3338 9.58192 25.2534 9.5452C25.173 9.50848 25.0856 9.48948 24.9972 9.4895ZM14.5 2.552C13.3346 2.55189 12.2056 2.95787 11.3072 3.70011C10.4088 4.44236 9.79714 5.47447 9.57741 6.61892C9.56447 6.68694 9.56671 6.75699 9.58398 6.82404C9.60124 6.8911 9.63311 6.95351 9.67729 7.00683C9.72147 7.06014 9.77689 7.10304 9.83957 7.13246C9.90226 7.16188 9.97066 7.17709 10.0399 7.177H18.9754C19.0424 7.17695 19.1086 7.16219 19.1693 7.13375C19.23 7.10532 19.2837 7.06391 19.3266 7.01245C19.3696 6.96099 19.4007 6.90073 19.4178 6.83593C19.4349 6.77113 19.4375 6.70336 19.4256 6.63742C19.2096 5.48904 18.5991 4.45224 17.6997 3.70625C16.8003 2.96027 15.6685 2.55199 14.5 2.552Z" fill="#3B82F6"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+    <!-- Login Form -->
+    <div class="webshop-for-indeat-partner-bg bg-cover bg-no-repeat bg-blue-500 bg-blend-overlay">
+        <div class="indeat-container mx-auto flex flex-col min-h-screen">
+            <div class="flex-grow flex flex-col self-center justify-center px-4 sm:px-0">
+                <div class="absolute self-center w-full sm:w-auto sm:webshop-container bg-white rounded-sm p-4 h-screen sm:h-auto">
+                    <i class="far fa-user-circle text-blue-500 w-max mx-auto block text-3xl px-5 sm:px-4 sm:text-7xl mt-6 sm:-mt-20 rounded-full bg-white p-4 relative border-2  border-blue-500"></i>
+
+                    <h1 class="text-black text-3xl px-12 text-center mt-6">Welcome to your restaurant portal from 
+                        Indeat
+                    </h1>
+                    <a href="#" class="text-center block py-2 text-sm text-gray-600">Login to your account</a>
+                    <form action="" class="flex flex-col gap-4 px-8 mt-8">
+                        <input type="email" name="mail" id="" placeholder="Emaill" class="border-b-2 py-3 text-sm focus:outline-none">
+                        <input type="password" name=""placeholder="Password" id="" class="border-b-2 py-3 text-sm focus:outline-none">
+                        <button class="bg-blue-500 py-2 text-white rounded-sm text-lg mt-6 hover:bg-blue-400 transition duratin-300 shadow-2xl">login</button>
+                    </form>
+                    <a href="#" class="text-center block py-4 text-sm text-gray-600">Forgot password?</a>
+ 
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
