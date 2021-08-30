@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indeat - Food Delivery Management</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- Tailwind CSS File -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+    <div class="flex flex-col min-h-screen">
+        <!-- Website Header -->
+        <header class="bg-blue-500 mx-auto flex justify-between px-4 sm:px-6 md:px-8 py-4 shadow-lg filter drop-shadow-lg w-full">
+            <h1 class="text-2xl font-semibold text-white">Indeat</h1>
+
+            <div class="flex space-x-2 divide-x divide-white">   
+                <div class="language text-sm font-semibold space-x-2 self-center">
+                    <a href="#!" class="text-white">SV</a>
+                    <a href="#!" class="text-white ">EN</a>
+                </div>
+
+                <button class="self-center pl-2 capitalize font-bold space-x-1">
+                    <i class="fas fa-user-circle text-white"></i>
+                    <span class="text-sm self-center text-white tracking-wider">Jhon deu</span>
+                    <i class="fas fa-angle-down text-white relative "></i>
+                </button>
+
+                <button class="self-center pl-2">
+                    <svg class="w-4 h-5 text-white" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M23.6075 2.13415C22.9658 1.45721 22.204 0.920311 21.3655 0.554123C20.5271 0.187936 19.6284 -0.000358974 18.721 5.13772e-07C17.8135 0.000360001 16.915 0.189366 16.0768 0.556218C15.2387 0.92307 14.4772 1.46058 13.836 2.13802L12.999 3.03175L12.169 2.13995L12.1636 2.13426C11.5223 1.45765 10.7609 0.920923 9.92289 0.554741C9.08491 0.188558 8.18676 8.67237e-05 7.27973 8.67237e-05C6.37271 8.67237e-05 5.47456 0.188558 4.63658 0.554741C3.7986 0.920923 3.03719 1.45765 2.39583 2.13426L2.02296 2.52762C0.727682 3.89409 0 5.74743 0 7.67992C0 9.6124 0.727682 11.4657 2.02296 12.8322L11.8638 23.2138L12.9751 24.4421L13.0016 24.4141L13.0303 24.4444L14.0716 23.2855L23.9803 12.832C25.2737 11.4645 26 9.61155 26 7.67974C26 5.74794 25.2737 3.89501 23.9803 2.52745L23.6075 2.13415ZM22.7591 11.544L13.0016 21.838L3.24386 11.544C2.2724 10.5191 1.72664 9.12913 1.72664 7.67977C1.72664 6.23041 2.2724 4.84041 3.24386 3.81556L3.61678 3.4222C4.58777 2.39785 5.90456 1.82214 7.27774 1.8216C8.65092 1.82105 9.96811 2.39572 10.9398 3.4193L12.9953 5.62727L15.0606 3.4222C15.5416 2.91474 16.1127 2.5122 16.7412 2.23756C17.3696 1.96292 18.0432 1.82157 18.7235 1.82157C19.4038 1.82157 20.0774 1.96292 20.7059 2.23756C21.3344 2.5122 21.9054 2.91474 22.3864 3.4222L22.7593 3.8155C23.7293 4.8412 24.274 6.23092 24.274 7.67979C24.274 9.12866 23.7291 10.5183 22.7591 11.544Z" fill="white"/>
+                        </svg>
+                </button>
+
+                <button class="self-center pl-2">
+                    <svg class="w-4 h-5 text-white" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.5 0.239502C16.3755 0.239272 18.1797 0.95872 19.5405 2.24951C20.9013 3.54029 21.7149 5.30401 21.8136 7.177H26.5974C26.8182 7.177 27.0365 7.22444 27.2374 7.31611C27.4383 7.40778 27.6171 7.54153 27.7618 7.70832C27.9066 7.87511 28.0138 8.07105 28.0762 8.28286C28.1386 8.49468 28.1548 8.71743 28.1237 8.93604L25.4812 27.436C25.4289 27.8036 25.2457 28.1398 24.9653 28.3831C24.685 28.6264 24.3262 28.7603 23.955 28.7603H5.04491C4.6737 28.7603 4.31495 28.6264 4.03457 28.3831C3.75419 28.1398 3.571 27.8036 3.51866 27.436L0.876242 8.93604C0.845106 8.71743 0.861298 8.49468 0.923721 8.28286C0.986144 8.07105 1.09334 7.87511 1.23806 7.70832C1.38278 7.54153 1.56163 7.40778 1.76253 7.31611C1.96343 7.22444 2.18167 7.177 2.40249 7.177H7.18628C7.285 5.30401 8.09862 3.54029 9.4594 2.24951C10.8202 0.95872 12.6244 0.239272 14.5 0.239502ZM23.0701 22.9791H5.92828C5.83986 22.9791 5.75248 22.9981 5.67204 23.0348C5.59161 23.0715 5.52002 23.1251 5.46211 23.1919C5.40421 23.2587 5.36136 23.3372 5.33645 23.4221C5.31155 23.5069 5.30518 23.5961 5.31778 23.6836L5.63845 25.919C5.65959 26.0659 5.73295 26.2002 5.84508 26.2973C5.95722 26.3944 6.1006 26.4479 6.24895 26.4478H22.7479C22.8962 26.4479 23.0396 26.3944 23.1517 26.2973C23.2639 26.2002 23.3372 26.0659 23.3584 25.919L23.679 23.6836C23.6916 23.5961 23.6853 23.5069 23.6604 23.4221C23.6355 23.3372 23.5926 23.2587 23.5347 23.1919C23.4768 23.1251 23.4052 23.0715 23.3248 23.0348C23.2443 22.9981 23.157 22.9791 23.0685 22.9791H23.0701ZM24.9972 9.4895H4.0012C3.91278 9.48948 3.82539 9.50848 3.74496 9.5452C3.66453 9.58192 3.59293 9.63551 3.53503 9.70233C3.47713 9.76916 3.43427 9.84765 3.40937 9.93249C3.38447 10.0173 3.3781 10.1065 3.3907 10.194L4.81212 20.1378C4.83326 20.2846 4.90662 20.4189 5.01875 20.516C5.13088 20.6132 5.27427 20.6666 5.42262 20.6666H23.5757C23.7241 20.6666 23.8675 20.6132 23.9796 20.516C24.0917 20.4189 24.1651 20.2846 24.1862 20.1378L25.6077 10.194C25.6203 10.1065 25.6139 10.0173 25.589 9.93249C25.5641 9.84765 25.5212 9.76916 25.4633 9.70233C25.4054 9.63551 25.3338 9.58192 25.2534 9.5452C25.173 9.50848 25.0856 9.48948 24.9972 9.4895ZM14.5 2.552C13.3346 2.55189 12.2056 2.95787 11.3072 3.70011C10.4088 4.44236 9.79714 5.47447 9.57741 6.61892C9.56447 6.68694 9.56671 6.75699 9.58398 6.82404C9.60124 6.8911 9.63311 6.95351 9.67729 7.00683C9.72147 7.06014 9.77689 7.10304 9.83957 7.13246C9.90226 7.16188 9.97066 7.17709 10.0399 7.177H18.9754C19.0424 7.17695 19.1086 7.16219 19.1693 7.13375C19.23 7.10532 19.2837 7.06391 19.3266 7.01245C19.3696 6.96099 19.4007 6.90073 19.4178 6.83593C19.4349 6.77113 19.4375 6.70336 19.4256 6.63742C19.2096 5.48904 18.5991 4.45224 17.6997 3.70625C16.8003 2.96027 15.6685 2.55199 14.5 2.552Z" fill="#ffffff"/>
+                    </svg>
+                </button>
+            </div>
+        </header>
+        <div class="flex-grow flex flex-col self-center justify-center px-4 sm:px-0">
+            <div class="bg-white py-2 sm:py-2 md:py-2 ">
+                <div class="w-full sm:logout-page-container mx-auto px-6 self-center shadow-xl">
+                    <div class="py-8 text-left">
+                        <div class=" flex justify-between items-center">
+                            <h5 class="text-xl text-black font-semibold mt-6" >Logging out?</h5>
+                            <svg width="25" height="25" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25 5L5 25M25 25L5 5L25 25Z" stroke="#18A0FB" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                             <p class="text-sm text-gray-700 py-2">Thanks for stopping by. See you again soon!</p>
+                        <div class="grid sm:grid-cols-2 gap-6 ">
+                            <button class=" border border-blue-500 text-blue-500 py-2 block  rounded-sm text-lg hover:bg-blue-500 hover:text-white transition duratin-300 shadow-2xl">Cancel</button>
+                            <button class="bg-blue-500 py-2 block  text-white rounded-sm text-lg hover:bg-blue-400 transition duratin-300 shadow-2xl">Log out</button>
+                        </div>
+                    </div>
+                 </div>          
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
