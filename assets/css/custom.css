@@ -100,6 +100,17 @@ body {
 .webshop-for-indeat-partner-bg{
     background-image: url('../images/fodora1 (6) 2.png');
 }
+.for-partner-bg{
+    height: 740px;
+    background-image: url('../images/fodora22 5.png');
+}
+
+.for-partner-about-bg{
+background-image: url('../images/fodora17 2.png');
+}
+.for-partner-register-bg{
+    background-image: url('../images/fodora17 2 (1).png');
+    }
 
 .webshop-container {
     width: 500px;
