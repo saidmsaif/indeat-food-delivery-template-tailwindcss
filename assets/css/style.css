@@ -656,7 +656,7 @@ video {
 
 @media (min-width: 640px) {
   .webshop-container {
-    max-width: 400px;
+    max-width: 500px;
   }
 }
 
@@ -674,6 +674,34 @@ video {
 
 @media (min-width: 1280px) {
   .webshop-container {
+    max-width: 500px;
+  }
+}
+
+.logout-page-container {
+  max-width: 100%;
+}
+
+@media (min-width: 640px) {
+  .logout-page-container {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  .logout-page-container {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logout-page-container {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .logout-page-container {
     max-width: 500px;
   }
 }

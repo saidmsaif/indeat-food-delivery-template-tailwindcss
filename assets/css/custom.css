@@ -104,3 +104,7 @@ body {
 .webshop-container {
     width: 500px;
 }
+
+.min-h-screen_logout_page {
+    min-height: 82vh;
+}

@@ -30,6 +30,22 @@ module.exports = {
         '.webshop-container': {
           maxWidth: '100%',
           '@screen sm': {
+            maxWidth: '500px',
+          },
+          '@screen md': {
+            maxWidth: '500px',
+          },
+          '@screen lg': {
+            maxWidth: '500px',
+          },
+          '@screen xl': {
+            maxWidth: '500px',
+          },
+        },
+
+        '.logout-page-container': {
+          maxWidth: '100%',
+          '@screen sm': {
             maxWidth: '400px',
           },
           '@screen md': {
