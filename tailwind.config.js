@@ -7,6 +7,7 @@ module.exports = {
   variants: {
     extend: {
       scale: ['active', 'group-hover'],
+      display: ['group-hover']
     },
   },
   plugins: [
